@@ -13,7 +13,7 @@ struct HomeView: View {
     var body: some View {
         List {
             ForEach(imageData.imageNote) { note in
-                NavigationLink(destination: Text("\(note.title)")) {
+                NavigationLink(destination: NoteDetailView(note: note)) {
                     HStack {
                         Image(uiImage: UIImage(data: note.image)!)
                             .resizable()
