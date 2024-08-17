@@ -11,6 +11,10 @@
 		EBAFF3EE2C6EAF8200A21095 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFF3ED2C6EAF8200A21095 /* ContentView.swift */; };
 		EBAFF3F02C6EAF8400A21095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAFF3EF2C6EAF8400A21095 /* Assets.xcassets */; };
 		EBAFF3F32C6EAF8400A21095 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAFF3F22C6EAF8400A21095 /* Preview Assets.xcassets */; };
+		EBAFF3FB2C6EAFE700A21095 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFF3FA2C6EAFE700A21095 /* ImagePicker.swift */; };
+		EBAFF3FF2C6FF8B300A21095 /* ImageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFF3FE2C6FF8B300A21095 /* ImageDataModel.swift */; };
+		EBAFF4022C6FF9BA00A21095 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFF4012C6FF9BA00A21095 /* HomeView.swift */; };
+		EBAFF4042C6FF9CA00A21095 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFF4032C6FF9CA00A21095 /* NoteDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		EBAFF3ED2C6EAF8200A21095 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EBAFF3EF2C6EAF8400A21095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBAFF3F22C6EAF8400A21095 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBAFF3FA2C6EAFE700A21095 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		EBAFF3FE2C6FF8B300A21095 /* ImageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataModel.swift; sourceTree = "<group>"; };
+		EBAFF4012C6FF9BA00A21095 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EBAFF4032C6FF9CA00A21095 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				EBAFF3EB2C6EAF8200A21095 /* NoteTakingAppApp.swift */,
-				EBAFF3ED2C6EAF8200A21095 /* ContentView.swift */,
+				EBAFF4002C6FF8CC00A21095 /* Views */,
+				EBAFF3FC2C6FF87700A21095 /* ImageData */,
+				EBAFF3F92C6EAFB900A21095 /* ImagePickerFeature */,
 				EBAFF3EF2C6EAF8400A21095 /* Assets.xcassets */,
 				EBAFF3F12C6EAF8400A21095 /* Preview Content */,
 			);
@@ -65,6 +75,40 @@
 				EBAFF3F22C6EAF8400A21095 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBAFF3F92C6EAFB900A21095 /* ImagePickerFeature */ = {
+			isa = PBXGroup;
+			children = (
+				EBAFF3FA2C6EAFE700A21095 /* ImagePicker.swift */,
+			);
+			path = ImagePickerFeature;
+			sourceTree = "<group>";
+		};
+		EBAFF3FC2C6FF87700A21095 /* ImageData */ = {
+			isa = PBXGroup;
+			children = (
+				EBAFF3FD2C6FF8A300A21095 /* Model */,
+			);
+			path = ImageData;
+			sourceTree = "<group>";
+		};
+		EBAFF3FD2C6FF8A300A21095 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBAFF3FE2C6FF8B300A21095 /* ImageDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBAFF4002C6FF8CC00A21095 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBAFF3ED2C6EAF8200A21095 /* ContentView.swift */,
+				EBAFF4012C6FF9BA00A21095 /* HomeView.swift */,
+				EBAFF4032C6FF9CA00A21095 /* NoteDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBAFF3FB2C6EAFE700A21095 /* ImagePicker.swift in Sources */,
+				EBAFF3FF2C6FF8B300A21095 /* ImageDataModel.swift in Sources */,
 				EBAFF3EE2C6EAF8200A21095 /* ContentView.swift in Sources */,
+				EBAFF4042C6FF9CA00A21095 /* NoteDetailView.swift in Sources */,
+				EBAFF4022C6FF9BA00A21095 /* HomeView.swift in Sources */,
 				EBAFF3EC2C6EAF8200A21095 /* NoteTakingAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
