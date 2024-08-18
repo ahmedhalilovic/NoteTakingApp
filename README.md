@@ -68,7 +68,8 @@ The `ImagePicker` is a reusable SwiftUI component that allows users to pick an i
 ## Screenshots
 
 ### Home Screen
-![Home Screen](Screenshots/home_screen.png){:width="100px"}
+![Home Screen]<img src="Screenshots/home_screen.png" alt="App Screenshot" width="300"/>
+
 
 ### Add Note
 ![Attach Photo Screen](Screenshots/attach_photo.png){:width="100px"}
