@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    // Access shared image data using EnvironmentObject
     @EnvironmentObject var imageData: ImageData
     
     var body: some View {
